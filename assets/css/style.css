@@ -361,6 +361,7 @@ a {
 /* Popular Courses */
 .popular-courses {
     margin-top: 130px;
+    padding-bottom: 200px;
 }
 
 .popular-courses .label {
@@ -407,6 +408,7 @@ a {
 
 .popular-courses .list .item {
     width: calc(33.33% - 31px);
+    position: relative;
 }
 
 .popular-courses .item .thumb {
@@ -431,4 +433,290 @@ a {
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 322px;
+    left: 17px;
+}
+
+.popular-courses .item .title a {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.popular-courses .item .price {
+    margin-top: 16px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.popular-courses .item b {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.popular-courses .desc-item {
+    margin-top: 6px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.popular-courses .body .row {
+    margin-top: 18px;
+    justify-content: start;
+    word-break: break-all;
+}
+
+.popular-courses .item .quantity {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popular-courses .item .quantity:last-child {
+    margin-left: 10px;
+}
+
+.popular-courses .item .quantity::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #1ebfc1;
+    border-radius: 50%;
+}
+
+/* Introduce */
+.introduce {
+    margin-top: 189px;
+}
+
+.introduce .list-introduce {
+    display: flex;
+    justify-content: center;
+    gap: 219px;
+    margin: 0 auto;
+}
+
+.introduce .list-introduce .column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introduce .list-introduce .column strong {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.introduce .list-introduce .label {
+    margin-top: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* Outstanding students */
+.outstanding-students {
+    margin-top: 264px;
+}
+
+.outstanding-students .body {
+    display: flex;
+}
+
+.outstanding-students .content {
+    width: 36%;
+}
+
+.outstanding-students .content .desc {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    position: relative;
+}
+
+.outstanding-students .content .label {
+    display: inline-block;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.outstanding-students .content .label b {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.outstanding-students .content .cta {
+    margin-top: 52px;
+    display: flex;
+    gap: 32px;
+}
+
+.outstanding-students .content .transfer {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    background: #2ac9bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.outstanding-students .image {
+    display: flex;
+    align-items: center;
+    width: 58%;
+}
+
+.outstanding-students .image .img-main {
+    width: 235px;
+    height: 235px;
+    margin-left: 345px;
+    background: transparent;
+    position: relative;
+}
+
+.outstanding-students .image .student-img {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.outstanding-students .image .center-img {
+    width: 235px;
+    height: 235px;
+}
+
+.outstanding-students .image .student-img:nth-child(2) {
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: -107px;
+    left: -129px;
+}
+
+.outstanding-students .image .student-img:nth-child(3) {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: -88px;
+    right: -171px;
+}
+
+.outstanding-students .image .student-img:nth-child(4) {
+    position: absolute;
+    left: -273px;
+    bottom: 0;
+}
+
+.outstanding-students .image .student-img:nth-child(5) {
+    position: absolute;
+    bottom: -139px;
+    right: 296px;
+}
+
+.outstanding-students .image .student-img:nth-child(6) {
+    position: absolute;
+    bottom: -110px;
+    right: -184px;
+}
+
+/* Get Admit */
+.get-admit {
+    margin-top: 167px;
+    background: #def6f5;
+}
+
+.get-admit .body {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+    padding: 76px 0 88px;
+}
+
+.get-admit .body .content {
+    padding-right: 12px;
+}
+
+.get-admit .body .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.get-admit .body .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    margin-top: 131px;
+    padding-bottom: 50px;
+}
+
+.footer .row {
+    gap: 140px;
+}
+
+.footer .column .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.footer .column .desc {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.footer .column .desc-social {
+    margin-top: 0;
+}
+
+.footer .column .row-social {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+}
+
+.footer .copyright p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
 }
